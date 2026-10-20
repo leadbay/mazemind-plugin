@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "mazemind": { "type": "http", "url": "https://mcp.mazemind.ai/claude" }
+  }
+}

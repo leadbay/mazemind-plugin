@@ -1,0 +1,16 @@
+{
+  "name": "mazemind",
+  "displayName": "Mazemind",
+  "version": "0.1.0",
+  "description": "A shared memory of public facts that AI agents read and write: companies, the people who run them and their roles, places and products, each fact with its source page and date. It holds mainly French companies today. Your assistant checks it when a task names one of these or needs a list of them, and saves there what its web research found.",
+  "author": { "name": "Mazemind", "url": "https://mazemind.ai" },
+  "homepage": "https://mazemind.ai",
+  "repository": "https://github.com/leadbay/mazemind-plugin",
+  "license": "MIT",
+  "keywords": ["companies", "people", "prospecting", "research", "sales", "facts", "France"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://github.com/leadbay/mazemind-plugin#readme",
+  "supportUrl": "https://github.com/leadbay/mazemind-plugin#support",
+  "privacyPolicyUrl": "https://mazemind.ai/privacy",
+  "termsOfServiceUrl": "https://mazemind.ai/terms"
+}

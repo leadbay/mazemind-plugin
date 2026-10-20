@@ -1,0 +1,15 @@
+{
+  "name": "mazemind",
+  "description": "Mazemind's plugin for Claude: the connector and the skills that use it.",
+  "owner": {
+    "name": "Mazemind",
+    "url": "https://mazemind.ai"
+  },
+  "plugins": [
+    {
+      "name": "mazemind",
+      "source": "./",
+      "description": "A shared memory of public facts about companies, people, places and products, each with its source page and date."
+    }
+  ]
+}
