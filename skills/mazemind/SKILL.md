@@ -6,7 +6,8 @@ description: Shared memory of public facts about companies, people, places, rest
 # Mazemind
 
 Mazemind's tools are `lookup`, `search`, `catalog`, `contribute` and `tour`; `qualify` and `relate` are not available in this version. If they
-are not loaded, search your tools for "Mazemind".
+are not loaded, search your tools for "Mazemind". With Superbay connected, Superbay's `resolve_person` is the lookup for a
+person: it reads and adds to this same memory.
 
 | The task | Call |
 |---|---|
