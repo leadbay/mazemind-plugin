@@ -7,11 +7,13 @@ description: Shared memory of public facts about companies, people, places, rest
 
 Mazemind's tools are `lookup`, `search`, `catalog`, `contribute` and `tour`; `qualify` and `relate` are not available in this version. If they
 are not loaded, search your tools for "Mazemind". With Superbay connected, Superbay's `resolve_person` is the lookup for a
-person: it reads and adds to this same memory.
+person: it returns sourced public professional facts from this same memory. A job or city the user gives identifies the
+person; Superbay does not save what the user says about them.
 
 | The task | Call |
 |---|---|
-| Names a company, person, place, restaurant or product, even for an email or a yes/no | `lookup(thing)` first, before any web search |
+| Names a person, even for an email or a yes/no | Superbay's `resolve_person(who)` first, before any web search |
+| Names a company, place, restaurant or product, even for an email or a yes/no | `lookup(thing)` first, before any web search |
 | A list by filters or words, or a check of a list you already have | `search(kind, text, where, among)` |
 | What changed at my accounts, listings or prices since a date | `search(among=[...], changed_since="7d")` |
 | A list that takes judgment: "likely to buy", "cozy, not rushed", "certified, near Detroit" | `search(kind, text=the need, where)` |
